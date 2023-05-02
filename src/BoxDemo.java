@@ -6,13 +6,8 @@ class BoxDemo4 {
         Box myBox2 = new Box();
         double vol;
 
-        myBox1.width = 10;
-        myBox1.height = 20;
-        myBox1.depth = 15;
-
-        myBox2.width = 3;
-        myBox2.height = 6;
-        myBox2.depth = 9;
+        myBox1.setDim(10, 20, 15);
+        myBox2.setDim(3, 6 , 9);
 
         vol = myBox1.volume();
         System.out.println("Объем равен " + vol);
