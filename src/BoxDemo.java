@@ -1,9 +1,10 @@
 package src;
 
-class BoxDemo3 {
+class BoxDemo4 {
     public static void main(String[] args) {
         Box myBox1 = new Box();
         Box myBox2 = new Box();
+        double vol;
 
         myBox1.width = 10;
         myBox1.height = 20;
@@ -13,7 +14,9 @@ class BoxDemo3 {
         myBox2.height = 6;
         myBox2.depth = 9;
 
-        myBox1.volume();
-        myBox2.volume();
+        vol = myBox1.volume();
+        System.out.println("Объем равен " + vol);
+        vol = myBox2.volume();
+        System.out.println("Объем равен " + vol);
     }
 }
