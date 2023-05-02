@@ -5,11 +5,10 @@ class Box {
     double height;
     double depth;
 
-    public Box() {
-        System.out.println("Конструирование объекта box");
-        width = 10;
-        height = 10;
-        depth = 10;
+    public Box(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
     }
 
     double volume() {
